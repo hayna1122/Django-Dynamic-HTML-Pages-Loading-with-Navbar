@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 200px;
+    background-color: black;
+    color: white;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar li {
+    text-align: center;
+}
+
+.sidebar a {
+    display: block;
+    padding: 15px 0;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.sidebar a:hover,
+.sidebar a.active {
+    background-color: white;
+    color: black;
+}
+
+      .content {
+        margin-left: 20%; /* Adjust this to match menu width */
+        height: 100%;
+        width: 80%;
+      }
